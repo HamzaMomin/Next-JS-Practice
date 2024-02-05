@@ -1,5 +1,5 @@
 'use client'
-import Image from "next/image";
+
 import styles from "./page.module.css";
 import {useAuthState} from 'react-firebase-hooks/auth'
 import {auth} from '@/app/firebae/config'
