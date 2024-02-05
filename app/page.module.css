@@ -228,3 +228,48 @@
     transform: rotate(0deg);
   }
 }
+
+/* styles/signup.module.css */
+
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.form {
+  background-color: #2d3748;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  width: 24rem;
+  text-align: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background-color: #4b5563;
+  border-radius: 0.25rem;
+  outline: none;
+  color: #f3f4f6;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4f46e5;
+  border-radius: 0.25rem;
+  color: #021518;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
